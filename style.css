@@ -1,0 +1,44 @@
+.index {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: stretch;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    align-items: flex-end;
+    background-color: #1F2937;
+    height: 75px;
+}
+
+.link1 a,
+.link2 a,
+.link3 a {
+    background-color: #1F2937;
+    font-size: 18px #e5e7eb;
+    font-family: Roboto;
+    text-decoration: none;
+    padding: 0 10px;
+    align-items: end;
+}
+
+.logo img{
+    width: 200px;
+    height: 70px;
+}
+
+.header {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    padding: 10px;
+
+}
+
+.userReview {
+    background-color: #e5e7eb;
+    font-size: 18px;
+    font-style: italic;
+    color: #1F2937;
+}
